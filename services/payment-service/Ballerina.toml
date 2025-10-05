@@ -1,0 +1,38 @@
+[package]
+org = "ticketing"
+name = "payment_service"
+version = "0.1.0"
+distribution = "2201.8.0"
+
+[build-options]
+observabilityIncluded = true
+
+[[dependency]]
+org = "ballerina"
+name = "http"
+version = "2.10.0"
+
+[[dependency]]
+org = "ballerina"
+name = "log"
+version = "2.9.0"
+
+[[dependency]]
+org = "ballerina"
+name = "uuid"
+version = "1.7.0"
+
+[[dependency]]
+org = "ballerina"
+name = "time"
+version = "2.4.0"
+
+[[dependency]]
+org = "ballerinax"
+name = "mongodb"
+version = "3.0.1"
+
+[[dependency]]
+org = "ballerinax"
+name = "kafka"
+version = "3.7.0"
